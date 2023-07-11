@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+source /home/$USER/miniconda3/etc/profile.d/conda.sh
+conda activate cspPy36
+
+# send to conda env command
+python "$@"
